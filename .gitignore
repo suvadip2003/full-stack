@@ -1,0 +1,9 @@
+# Ignore node_modules folders in root and client
+node_modules
+client/node_modules
+
+# Ignore environment files
+.env
+
+# Ignore React build folder
+client/build
