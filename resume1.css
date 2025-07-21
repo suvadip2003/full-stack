@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #333;
+}
+
+.profile-photo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.header-content {
+    margin-left: 20px;
+}
+
+.header-content h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.header-content h1 span {
+    color: #ff6600;
+}
+
+.header-content h2 {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #ff6600;
+}
+
+.header-content p {
+    margin: 0;
+    max-width: 500px;
+}
+
+.content {
+    display: flex;
+    margin-top: 20px;
+}
+
+.left, .right {
+    width: 50%;
+    padding: 10px;
+}
+
+.left h3, .right h3 {
+    color: #ff6600;
+    margin-bottom: 10px;
+}
+
+.left ul {
+    list-style: none;
+    padding: 0;
+}
+
+.left ul li {
+    margin-bottom: 10px;
+}
+
+.footer {
+    margin-top: 20px;
+    border-top: 2px solid #333;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact p, .socials a {
+    margin: 5px 0;
+}
+
+.socials a {
+    display: block;
+    color: #ff6600;
+    text-decoration: none;
+}
+
+.socials a:hover {
+    text-decoration: underline;
+}
